@@ -89,7 +89,7 @@ uint8_t gaussianBlurOMP( uint8_t *img, size_t width, size_t height, uint8_t core
 
 // gaussianBlurNEON - same as above, but with NEON added!
 // TODO: Produce color version!
-uint8_t gaussianBlurNEON( uint8_t *img, size_t width, size_t height, uint8_t cores ) {
+/*uint8_t gaussianBlurNEON( uint8_t *img, size_t width, size_t height, uint8_t cores ) {
 
   register uint16_t   *buf  = NULL;            // Buffer for Processing
            uint16x8_t  imageChunkA;            // ARM Neon Image Chunk Vector A
@@ -131,7 +131,7 @@ uint8_t gaussianBlurNEON( uint8_t *img, size_t width, size_t height, uint8_t cor
 
   return 0;
 
-}
+} //*/
 
 
 
